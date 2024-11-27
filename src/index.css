@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-mobile-btn{
+    transition: all 1s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color: black;
+    background-color: rgb(194, 191, 191);
+    border-radius: 100%;
+    padding: 0px 20px;
+    height: 39px;
+
+    
+
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 16px;
+    margin: 0 auto;
+    font: 600;
+}
+
+.Toastify__close-button{
+    opacity: 1;
+}
+
